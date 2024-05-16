@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url("/Norse-Bold.otf") format("opentype");
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    opacity: .15;
+    font-family: Norse-Bold;
+    color: white;
+    font-size: 5rem;
+}
+
+#odin {
+    height: 6rem;
+    width: 5rem;
+}
