@@ -18,3 +18,22 @@
     height: 6rem;
     width: 5rem;
 }
+
+button {
+    background-color: #596D48;
+    color: white;
+}
+
+input {
+    border-color: #E5E7EB;
+    box-shadow: .025px .025px 0px;
+}
+
+input:invalid {
+    border-color: red;
+  }
+
+input:focus {
+    border-color: blue;
+    box-shadow: 1px 1px 2px;
+}
