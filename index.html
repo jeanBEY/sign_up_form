@@ -10,58 +10,79 @@
     <body>
 
         <div class="left-section">
-            <div id="logo">
-                <img id="img1" src="/odin-lined.png">
-                <p>ODIN</p>
-            </div>
-
-            <div id="background_pic">
-                <img id="img2" src="halie-west-25xggax4bSA-unsplash.jpg">
+            <img id="img2" src="halie-west-25xggax4bSA-unsplash.jpg">
+            <div class="photo-credit">Photo by <u>Hallie West</u> on <u>Unsplash</u></div>
+            <div class="band">
+                <div class="logo-pic"><img id="img1" src="/odin-lined.png"></div>
+                <div class="logo-text">ODIN</div>
             </div>
 
         </div>
 
         <div class="right-section">
 
-                <div>
-                    <p>This is not a real online service.  You know you need something<br>
-                        like this in your life to help you realize your deepest dreams.<br>
-                        Sign up <em>now</em> to get started.<br><br>
-                        You <em>know</em> you want to.
-                    </p>
+            <div class="top text">
+                <p>This is not a real online service.  You know you need something<br>
+                    like this in your life to help you realize your deepest dreams.<br>
+                    Sign up <em>now</em> to get started.<br><br>
+                    
+                </p>
 
-                    <p>Let's do this</p>
+                <p>You <em>know</em> you want to.</p>
 
-                </div>
-            <form action="example.com/path" method="post">
-
-                <div>
-
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" name="first_name">
-
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" name="last_name">
-
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email" placeholder="you@example.com">
-
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <input type="tel" id="phone_number" name="phone_number">
-
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
-
-                    <label for="confirm_password"> CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password" name="confirm_password">
-                </div>
-
-                <div>
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account.  Log in</p>
-                </div>
+            </div>
             
-            </form>
+            <div class="middle">
+
+                <div class="text">Let's do this</div>
+
+                <form action="example.com/path" class="form" method="post">
+
+                    <div class="form-left">
+
+                        <div class="form-row">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>    
+
+                        <div class="form-row">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </div>
+
+                    <div class="form-right">
+
+                        <div class="form-row">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number" name="phone_number">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="confirm_password"> CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password" name="confirm_password">
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>  
+            
+            <div class="bottom">
+                <button type="submit" class="button">Create Account</button>
+                <div>Already have an account.  <a>Log in</a></div>
+            </div>
 
         </div>
     </body>
