@@ -1,22 +1,19 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
 @font-face {
     font-family: Norse-Bold;
     src: url("/Norse-Bold.otf") format("opentype");
-}
-
-#logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    opacity: .15;
-    font-family: Norse-Bold;
-    color: white;
-    font-size: 5rem;
-}
-
-#odin {
-    height: 6rem;
-    width: 5rem;
 }
 
 button {
@@ -37,3 +34,13 @@ input:focus {
     border-color: blue;
     box-shadow: 1px 1px 2px;
 }
+
+
+
+
+
+
+
+
+
+
